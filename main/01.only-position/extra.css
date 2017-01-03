@@ -1,0 +1,15 @@
+.Earth {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+
+.human {
+  width: 80px;
+  height: 80px;
+  line-height: 40px;
+  border-radius: 40px;
+  background: url(../public/human.png) center center no-repeat;
+  background-size: 80px 80px;
+}
+

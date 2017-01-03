@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>z-index</title>
+  <link rel="stylesheet" href="../public/common.css"/>
+  <link rel="stylesheet" href="./extra.css"/>
+  <style>
+    .Mars {
+      margin: -80px 0 0 50px;
+    }
+    .Pluto {
+      margin: -50px 0 0 30px;
+    }
+    .IE67 {
+      display: none;
+      *display: block;
+    }
+  </style>
+</head>
+<body>
+<h3>霍霍毁灭太阳系失败了！</h3>
+<h3>地球人胜利了！？</h3>
+<h3 class="IE67">IE6/7的次元中，霍霍胜利了！</h3>
+<div class="Venus">Venus</div>
+
+<div class="Earth" style="position: relative; /*z-index: 0;*/">
+  <div class="human" style="position:relative;z-index:999;"></div>
+</div>
+
+<div class="Mars">
+  <div class="Mars-sky" style="position: relative; /*z-index: 0;*/">
+    <div class="alien" style="position:relative;z-index:99;"></div>
+  </div>
+</div>
+
+<div class="Pluto" style="position: relative; /*z-index: 0;*/">
+  <div class="Pluto-sky">
+    <div class="Pluto-ground">
+      <div class="huo-huo" style="position:relative;z-index:9;"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

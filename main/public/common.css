@@ -1,0 +1,29 @@
+div {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color: #000;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.Venus {
+  background: #ffff00;
+  margin-bottom: 10px;
+}
+
+.Earth {
+  background: #00DDFF;
+  margin-bottom: 10px;
+}
+
+.Mars {
+  background: #FF4F54;
+  margin-bottom: 10px;
+}
+
+.Pluto {
+  background: #C3A2F3;
+  margin-bottom: 10px;
+}
